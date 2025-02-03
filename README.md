@@ -18,7 +18,7 @@
         需要兩個決策平面）；以及一個具有一個節點 (Y) 的輸出層。類神經網路結構如
         下：
             ![Architecture_diagram](https://github.com/WBC-Justin/Hybrid-Soft-Computing_XOR/blob/main/images/Architecture_diagram.png)
-            
+            <img src="https://github.com/WBC-Justin/Hybrid-Soft-Computing_XOR/blob/main/images/Architecture_diagram.png" alt="Architecture Diagram" width="500">
             
         神經元作為類神經網路中的資訊處理單元，其特徵為：
         1. 類神經網路的資訊儲存在神經元之間的互連中，即權重。神經元的輸入值
@@ -27,7 +27,7 @@
            0 和 1 之間。
         3. 神經元的輸出 y 與輸入間的關係如下:
            ![XY_relationship_formula](https://raw.githubusercontent.com/WBC-Justin/Hybrid-Soft-Computing_XOR/main/images/Architecture_diagram.png)
-
+           <img src="https://raw.githubusercontent.com/WBC-Justin/Hybrid-Soft-Computing_XOR/main/images/Architecture_diagram.png" alt="Architecture Diagram" width="500">
 
         神經網路透過根據學習演算法更新其權重來進行學習，從而幫助其收斂到預期
         輸出。學習演算法是基於損失函數改變權重和偏差的原則方法。損失函數(誤差)
