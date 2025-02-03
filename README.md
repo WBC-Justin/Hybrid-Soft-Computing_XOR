@@ -17,16 +17,16 @@
         將由一個具有兩個節點（X1，X2）的輸入層組成；一個隱藏層有兩個節點（因為
         需要兩個決策平面）；以及一個具有一個節點 (Y) 的輸出層。類神經網路結構如
         下：
-            ![Architecture_diagram](https://github.com/user-attachments/assets/fdc172ef-2e4c-408d-9d6b-0853b5fcd8e0)
-
-
+            ![Architecture_diagram](https://github.com/WBC-Justin/Hybrid-Soft-Computing_XOR/blob/main/images/Architecture_diagram.png)
+            
+            
         神經元作為類神經網路中的資訊處理單元，其特徵為：
         1. 類神經網路的資訊儲存在神經元之間的互連中，即權重。神經元的輸入值
            為前一層神經元輸出的加權和，Σwi xi
         2. 神經元的激勵函數為 sigmoid 函數，也稱為邏輯迴歸函數，其輸出值介於
            0 和 1 之間。
         3. 神經元的輸出 y 與輸入間的關係如下:
-           ![XY_relationship_formula](https://github.com/user-attachments/assets/dd0ffc61-225e-4c20-8919-efd1a5d1e772)
+           ![XY_relationship_formula](https://raw.githubusercontent.com/WBC-Justin/Hybrid-Soft-Computing_XOR/main/images/Architecture_diagram.png)
 
 
         神經網路透過根據學習演算法更新其權重來進行學習，從而幫助其收斂到預期
