@@ -17,7 +17,7 @@
         將由一個具有兩個節點（X1，X2）的輸入層組成；一個隱藏層有兩個節點（因為
         需要兩個決策平面）；以及一個具有一個節點 (Y) 的輸出層。類神經網路結構如
         下：
-            ![alt text](Architecture_diagram.png)
+            ![alt text](images/Architecture_diagram.png)
 
         神經元作為類神經網路中的資訊處理單元，其特徵為：
         1. 類神經網路的資訊儲存在神經元之間的互連中，即權重。神經元的輸入值
@@ -25,7 +25,7 @@
         2. 神經元的激勵函數為 sigmoid 函數，也稱為邏輯迴歸函數，其輸出值介於
            0 和 1 之間。
         3. 神經元的輸出 y 與輸入間的關係如下:
-           ![alt text](XY_relationship_formula.png)
+           ![GitHub Logo](https://github.com/WBC-Justin/Hybrid-Soft-Computing_XOR/blob/main/images/XY_relationship_formula.png)
 
         神經網路透過根據學習演算法更新其權重來進行學習，從而幫助其收斂到預期
         輸出。學習演算法是基於損失函數改變權重和偏差的原則方法。損失函數(誤差)
@@ -55,14 +55,14 @@ English(英文):
             A hidden layer with two nodes (since two decision planes are needed)
             An output layer with one node (Y)
             The structure of the ANN is shown below:
-            ![alt text](Architecture diagram.png)
+            ![alt text](images/Architecture_diagram.png)
 
         Neurons in Artificial Neural Networks:
         Neurons serve as the fundamental processing units in an ANN, with the following characteristics:
             Information in an ANN is stored in the interconnections between neurons, represented by weights. The input to a neuron is the weighted sum of the outputs from the previous layer, calculated as Σwi xi.
             The activation function of a neuron is the sigmoid function, also known as the logistic regression function, which outputs values between 0 and 1.
         The relationship between the neuron’s output y and input is as follows:
-            ![alt text](X Y relationship formula.png)
+            ![alt text](images/XY_relationship_formula.png)
 
         Neural networks learn by updating their weights based on a learning algorithm, helping them converge to the expected output. The learning algorithm follows the principle of modifying weights and biases based on a loss function. The loss function (error) is defined as the difference between the predicted and actual results, mathematically expressed as:Error = 1/2 (t - y)^2
     
